@@ -1,0 +1,223 @@
+[
+  {
+    "id": "1",
+    "title": "The Pragmatic Programmer",
+    "author": "Andy Hunt & Dave Thomas",
+    "genre": "Software Engineering",
+    "price": "$39.99",
+    "rating": 4.9,
+    "description": "One of the most significant books on software development. From responsibility and career development to architectural techniques, this classic helps you become a better programmer.",
+    "publisher": "Addison-Wesley Professional",
+    "publishedDate": "2019-09-13",
+    "isbn": "978-0135957059",
+    "pages": 352,
+    "reviews": [
+      {
+        "reviewer": "Alice Mercer",
+        "stars": 5,
+        "comment": "This book changed how I think about writing code and managing my career.",
+        "date": "2026-07-10"
+      },
+      {
+        "reviewer": "Bob Smith",
+        "stars": 4,
+        "comment": "Timeless advice, although some examples are a bit dated.",
+        "date": "2026-06-25"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Software Craftsmanship",
+    "price": "$42.50",
+    "rating": 4.7,
+    "description": "Even bad code can run. But if code isn't clean, it can bring a development organization to its knees. This book presents a paradigm for writing code that is clean, readable, and maintainable.",
+    "publisher": "Prentice Hall",
+    "publishedDate": "2008-08-01",
+    "isbn": "978-0132350884",
+    "pages": 464,
+    "reviews": [
+      {
+        "reviewer": "Charlie Davis",
+        "stars": 5,
+        "comment": "A must-read for any junior developer joining a team.",
+        "date": "2026-08-01"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "genre": "Software Design",
+    "price": "$44.99",
+    "rating": 4.8,
+    "description": "Refactoring is a controlled technique for improving the design of an existing body of code, without altering its external behavior. This book provides a detailed catalog of refactorings.",
+    "publisher": "Addison-Wesley Professional",
+    "publishedDate": "2018-11-20",
+    "isbn": "978-0134757599",
+    "pages": 448,
+    "reviews": [
+      {
+        "reviewer": "David Miller",
+        "stars": 5,
+        "comment": "Fowler's second edition is excellent. Examples in JS are easy to follow.",
+        "date": "2026-05-18"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Refactoring (2nd Edition)",
+    "author": "Martin Fowler",
+    "genre": "Software Engineering",
+    "price": "$39.9944.99",
+    "rating": 5,
+    "description": "Martin Fowlers guide to refactoring.",
+    "publisher": "Self-Published",
+    "publishedDate": "2026-08-10",
+    "isbn": "N/A",
+    "pages": 300448,
+    "reviews": []
+  },
+  {
+    "id": "5",
+    "title": "Prisma ORM & Next.js Architecture",
+    "author": "Tirrth Mistry",
+    "genre": "Software Engineering",
+    "price": "$39.9949.99",
+    "rating": 5,
+    "description": "Demonstrating Prisma 1:N relational modeling, global singleton pattern, and ACID transactions in Next.js.",
+    "publisher": "Pragmatic Press",
+    "publishedDate": "2026-08-17",
+    "isbn": "ISBN-978-967286610",
+    "pages": 300380,
+    "reviews": [
+      {
+        "reviewer": "Prisma ACID Audit Bot",
+        "stars": 5,
+        "comment": "System audit: Prisma 1:N relational transaction verified for author 'Tirrth Mistry'.",
+        "date": "2026-08-17"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "GOAT",
+    "author": "Robert Frost",
+    "genre": "Software Engineering",
+    "price": "$39.99",
+    "rating": 5,
+    "description": "fGOGFewy",
+    "publisher": "O'Reilly media",
+    "publishedDate": "2026-08-17",
+    "isbn": "ISBN-978-270220968",
+    "pages": 300,
+    "reviews": [
+      {
+        "reviewer": "Prisma ACID Audit Bot",
+        "stars": 5,
+        "comment": "System audit: Prisma 1:N relational transaction verified for author 'Robert Frost'.",
+        "date": "2026-08-17"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Designing Data-Intensive Applications",
+    "slug": "designing-data-intensive-applications",
+    "author": "Martin Kleppmann",
+    "genre": "Software Engineering",
+    "price": "$49.99",
+    "discountPercentage": 15,
+    "rating": 5,
+    "description": "The definitive guide to the architecture, storage engines, replication, and partitioning mechanisms in modern distributed data systems.",
+    "publisher": "Pragmatic Press",
+    "publishedDate": "2026-09-08",
+    "isbn": "ISBN-978-151300803",
+    "pages": 380,
+    "stockTracking": {
+      "sku": "PRAG-7021",
+      "warehouse": "Primary-Depot",
+      "quantity": 32,
+      "lowStockThreshold": 5,
+      "reorderAuto": true,
+      "batchNumber": "BATCH-2026-07"
+    },
+    "specifications": {
+      "format": "Paperback",
+      "dimensions": "7.0 x 9.2 x 1.1 in",
+      "weightGrams": 650,
+      "techStack": [
+        "TypeScript",
+        "Next.js",
+        "MongoDB",
+        "Mongoose"
+      ],
+      "edition": "Mongoose 8.x Edition",
+      "targetAudience": "Full-Stack Software Engineers"
+    },
+    "reviews": [
+      {
+        "reviewer": "Mongoose Lifecycle Validator",
+        "stars": 5,
+        "comment": "Automated Mongoose ODM validation verified. Sub-document 'Primary-Depot' registered with SKU 'PRAG-7021'.",
+        "verifiedPurchase": true,
+        "date": "2026-09-08"
+      }
+    ],
+    "inStock": true,
+    "discountedPrice": 42.49,
+    "inventoryStatus": "IN_STOCK"
+  },
+  {
+    "id": "8",
+    "title": "FST",
+    "slug": "fst",
+    "author": "Vipul Kushwaha",
+    "genre": "Software Engineering",
+    "price": "$50.00",
+    "discountPercentage": 10,
+    "rating": 5,
+    "description": "This book is very useful for those who wants to learn FST from beginning. Our sir has written and published it.",
+    "publisher": "Pragmatic Press",
+    "publishedDate": "2026-09-08",
+    "isbn": "ISBN-978-496704237",
+    "pages": 380,
+    "stockTracking": {
+      "sku": "PRAG-8092",
+      "warehouse": "Main-West",
+      "quantity": 50,
+      "lowStockThreshold": 5,
+      "reorderAuto": true,
+      "batchNumber": "BATCH-2026-08"
+    },
+    "specifications": {
+      "format": "Paperback",
+      "dimensions": "7.0 x 9.2 x 1.1 in",
+      "weightGrams": 650,
+      "techStack": [
+        "TypeScript",
+        "Next.js",
+        "MongoDB",
+        "Mongoose"
+      ],
+      "edition": "Mongoose 8.x Edition",
+      "targetAudience": "Full-Stack Software Engineers"
+    },
+    "reviews": [
+      {
+        "reviewer": "Mongoose Lifecycle Validator",
+        "stars": 5,
+        "comment": "Automated Mongoose ODM validation verified. Sub-document 'Main-West' registered with SKU 'PRAG-8092'.",
+        "verifiedPurchase": true,
+        "date": "2026-09-08"
+      }
+    ],
+    "inStock": true,
+    "discountedPrice": 45,
+    "inventoryStatus": "IN_STOCK"
+  }
+]

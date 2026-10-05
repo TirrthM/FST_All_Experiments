@@ -1,0 +1,57 @@
+// Experiment 5: Prisma ORM Schema with 1:N Relational Logic & Cascading Rules
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Author {
+  id        String   @id @default(cuid())
+  name      String
+  bio       String?
+  createdAt DateTime @default(now())
+  books     Book[]
+}
+
+model Genre {
+  id    String @id @default(cuid())
+  name  String @unique
+  slug  String @unique
+  books Book[]
+}
+
+model Book {
+  id            String   @id @default(cuid())
+  title         String
+  price         String
+  rating        Float    @default(5.0)
+  description   String
+  publisher     String
+  publishedDate String
+  isbn          String
+  pages         Int
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  authorId String
+  author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  genreId String
+  genre   Genre @relation(fields: [genreId], references: [id], onDelete: Cascade)
+
+  reviews Review[]
+}
+
+model Review {
+  id           String   @id @default(cuid())
+  reviewerName String
+  rating       Float
+  comment      String
+  createdAt    DateTime @default(now())
+
+  bookId String
+  book   Book   @relation(fields: [bookId], references: [id], onDelete: Cascade)
+}
